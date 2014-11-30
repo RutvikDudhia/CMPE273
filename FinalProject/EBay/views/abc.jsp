@@ -1,0 +1,500 @@
+<html lang="en">
+<head>
+<!--eBay V3- msxml 6.0 XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="English">
+<title>eBay &gt; Tell us what you're selling : Select a category</title>
+<script type="text/javascript" language="JavaScript">
+	var pageName = 'SYI_3_F_BrowseCat';
+	var pageType = '';
+	var siteId = '0';
+	var cobrandId = '2';
+	var server = location.hostname.toLowerCase();
+	var channel = 'eBay';
+	var colorScheme = 'transaction';
+	var imagePath = 'http://pics.ebaystatic.com/aw/pics/';
+	var scriptPath = 'http://include.ebaystatic.com/aw/pics/';
+	var stylePath = 'http://include.ebaystatic.com/aw/pics/';
+	var helpPath = 'http://pages.ebay.com/help/';
+	var jsPath = scriptPath;
+	var ebayToolbox = 'true';
+	var includeHost = 'http://include.ebaystatic.com/aw/pics/';
+</script>
+<script id="bh_tag"
+	src="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/bubble_help_data_e9012us.js"
+	type="text/javascript"></script>
+<link
+	href="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/ouxkwer4ki5uljvjrmvxpgdpy2s.css"
+	type="text/css" rel="stylesheet">
+<link rel="stylesheet"
+	href="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/main_e9011us.css"
+	type="text/css">
+<link rel="stylesheet"
+	href="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/ebaystd_e9011us.css"
+	type="text/css">
+<link rel="stylesheet"
+	href="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/main_e9011us_002.css"
+	type="text/css">
+<link rel="stylesheet"
+	href="../../EBay/public/eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/category_e9011us.css"
+	type="text/css">
+<style type="text/css">
+form h2 {
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+</style>
+<style type="text/css">
+.pagecontainer {
+	padding-right: 22px;
+}
+</style>
+<link rel="stylesheet" href="../../jqwidgets/styles/jqx.base.css"
+	type="text/css">
+</head>
+<noscript></noscript>
+<body>
+	<span style="position: absolute;" id="fontSizeDetector"></span>
+	<div id="content" class="emlcontent">
+		<div class="pagewidth">
+			<div class="pageminwidth">
+				<div class="pagelayout">
+					<div class="pagecontainer">
+						<div>
+							<br> &nbsp;
+							<div class="gh-acc-exp-div">
+								<a id="gh-hdn-stm" class="gh-acc-a" href="#mainContent">Skip
+									to main content</a>
+							</div>
+							<div id="gh" class="gh-flex gh-w gh-minH no-touch">
+								<!--<![endif]-->
+								<table class="gh-tbl">
+									<tbody>
+										<tr>
+											<td class="gh-td">
+												<!--[if lt IE 9]><a href="http://www.ebay.com/" class="iclg" _sp="m570.l2586" id="gh-la">eBay<img width="117" height="120" style="clip:rect(47px, 118px, 95px, 0px); position:absolute; top:-47px;left:0" alt="" src="http://ir.ebaystatic.com/rs/v/apstidvcvu5pxlbxkphrrdo5iqv.png" id="gh-logo"></a><![endif]-->
+												<!--[if (gte IE 9)|!(IE)]><!--> <a
+												href="http://www.ebay.com/" class="iclg" _sp="m570.l2586"
+												id="gh-la">eBay<img
+													style="clip: rect(47px, 118px, 95px, 0px); position: absolute; top: -47px; left: 0pt;"
+													alt=""
+													src="eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/fxxj3ttftm5ltcqnto1o4baovyl.png"
+													id="gh-logo" height="200" width="250"></a>
+											<!--<![endif]-->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!--ts:2014.11.28.08:15-->
+							<!--rq:-->
+							<!--rvr:59rc5-->
+							&nbsp;
+						</div>
+						<!--@sghp@ headerStyle=MIN:DEFAULT::NOSKIPLINK @eghp@-->
+						<!-- End eBay Header -->
+						<!--[if IE]><link rel="stylesheet" href="http://include.ebaystatic.com/css/e901/us/tbx/darwin/syi/mainIEFixes_e9011us.css" type="text/css"/><![endif]-->
+						<form action="http://cgi5.ebay.com/ws/eBayISAPI.dll" method="post"
+							name="selling">
+							<div class="brdcmb" id="brdcmb">
+								<b>
+									<div class="level1">SELL YOUR ITEM</div>
+									<div class="active">1. TELL US WHAT YOU'RE SELLING</div>
+									<div class="inactive">2. CREATE YOUR LISTING</div>
+									<div class="inactive">3. REVIEW YOUR LISTING</div>
+								</b>
+							</div>
+							<div class="clr"></div>
+							<div class="areaTitleBox" id="areaTitleBox">
+								<div class="areaTitle">
+									<a name="mainContent"></a>
+									<h1>Tell us what you're selling : Select a category&nbsp;
+									</h1>
+								</div>
+								<div class="clr"></div>
+							</div>
+							<div id="page_message"></div>
+							<div id="cssError_sec">
+								<!--DIV-->
+							</div>
+							<h2>Select a category</h2>
+							<div></div>
+							<div id="secondCategoryMessage_sec" style="display: none;">
+								<div class="idt">
+									<div id="msg">
+										<div class="info">
+											<div class="cnt">Please select your second category
+												below.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<ul class="tab" role="tablist" id="tbpnl"
+									style="margin-bottom: 0px;">
+									<li role="presentation" class="inactive"><span><a
+											href="http://cgi5.ebay.com/ws/eBayISAPI.dll?NewListing&amp;itemid=&amp;sid=361848131622&amp;cpg=4&amp;js=1&amp;aid=4&amp;keywords="
+											id="searchcatlink" role="tab">Search categories</a></span></li>
+								</ul>
+								<div role="tabpanel" class="secpnl"
+									aria-labelledby="browsecatlink">
+									<div class="idt">
+										<label for="fcat">Categories</label>
+										<div id="ariabrowse" class="g-hdn" aria-live="assertive"
+											aria-relevant="text" aria-atomic="true"></div>
+									</div>
+									<div class="idtHrz" id="categories_fldSet">
+										<div></div>
+										<div id="catboxes_inpGrp" tabindex="-1">
+											<table style="width: 922px; height: 236px;" summary=""
+												border="0" cellpadding="0" cellspacing="0">
+												<tbody>
+													<tr id="catboxes_row_1">
+														<td valign="top">
+															<div id="fcat_inp" class="idtRgt">
+																<br>
+																<div>
+																	<span
+																		style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left;">Customers:</span>
+																	<div style="margin-left: 5px; float: left;"
+																		id="Category"></div>
+																	<div style="clear: both;"></div>
+																	<div style="margin-top: 20px;">
+																		<span
+																			style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left;">Orders:</span>
+																		<div style="margin-left: 5px; float: left;"
+																			id="subCategory"></div>
+																		<br>
+																		<div style="margin-top: 25px; font-size: 12px;"
+																			id="orderInfo"></div>
+																	</div>
+																</div>
+															</div>
+														</td>
+														<td valign="top"><span id="lyr_fcat"></span><br>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<script type="text/javascript" language="JavaScript">
+											(function() {
+												var c = ebay.oDocument
+														.addConfig(new EbayCategorySelectorFilmstripConfig(
+																'Selling.Categorize.Browse.Selector'));
+												c.sUrl = 'http://cgi5.ebay.com/ws/eBayISAPI.dll?LoadCategoryTree&mcat=<#1#>&mode=1&depth=1&version=110&cat1=&sid=361848131622&userid=&pass=&mskufilter=0';
+												c.sLayerPrefix = 'lyr_';
+												c.sCategorySelectorLabel = 'Sub Categories';
+												c.sHtmlString = '<table border=0 cellpadding=0 cellspacing=0><tr><td class="idtRgt"><#1#></td><td valign="top"><#2#></td></tr></table>';
+												c.sSelectName = 'fcat';
+												c.sSelectedHtmlString = '<table border="0" cellspacing="0" class="broCatSel"><tr><td colpsan="2"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="6" width="1" alt=" "/></td></tr><tr><td valign="top" width="42"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="1" width="10" alt=" "/><a class="acc-hdn" href="javascript:{}">Success</a><img src="http://pics.ebaystatic.com/aw/pics/icon/iconSuccess_32x32.gif" border="0" align="top" alt="Success" /></td><td valign="top" class="vieItmPreBoxCon">You\'ve selected a category. Click <b>Continue</b>.</td></tr></table>';
+												c.sForkSign = ' >';
+												c.bIsInline = true;
+												c.sNotifyElemName = 'catlayer_inpGrp';
+												c.sARIAMsgLyr = 'ariabrowse';
+												c.sARIAMsg = 'Sub Categories are available. Use tab key to navigate to the sub categories list';
+												c.sARIALeafMsg = 'You have selected a category. Click Continue';
+												c.bIsMotors = false;
+												c.bIsCore = true;
+												c.sSecondCategoryMessageElemName = 'secondCategoryMessage_sec';
+												c.bBypassCatSelection = false;
+											})();
+										</script>
+									</div>
+									<script type="text/javascript" language="JavaScript">
+										(function() {
+											var c = ebay.oDocument
+													.addConfig(new EbayConfig(
+															'Selling.Categorize.Browse'));
+											c.aSearchLinks = [ "searchcatlink",
+													"recentcatlink" ];
+											c.sCarAdAid = '80';
+											c.CarAdMsgLyr = 'carAdMessage_inpGrp';
+											c.CarAdDYILink = 'carAdSYILink';
+											c.sFeeVariesLinkElemName = 'addfees2catlink';
+											c.sCatsSelectedElemName = 'category_link';
+											c.sUrl = 'http://cgi5.ebay.com/ws/eBayISAPI.dll?NewListing&itemid=&sid=361848131622&cpg=4&js=1&aid=7&vMode=iframe&cat1=<#1#>&mode=<#2#>';
+											c.sTitleLayerName = 'catlayerTitle';
+											c.sLayerName = 'catlayer_inpGrp';
+											c.sCatBoxesLayerName = 'catboxes_inpGrp';
+											c.sDefTxt = 'Select a category';
+											c.bIOSCategoryUI = true;
+											c.sRemoveText = 'Remove';
+											c.sChangeText = 'Change';
+											c.sSelectedCatStartHTML = '<ul class="catlst">';
+											c.sSelectedCatHeadText = 'Categories you have selected';
+											c.sNoCatSelectedText = 'No category selected';
+											c.sSelectedCatHTML = '<li><#1#> | <#2#> | <#3#></li>';
+											c.sSelectedCatEndHTML = '</ul>';
+											c.sRemoveAnchorPrefix = 'Anchor_';
+											c.sSwitchLinkName = 'lnkSwitchPage';
+											c.aSelectedCategoryElems = [
+													"cat1", "cat2" ];
+											c.sContinueButton = 'aidZ1';
+											c.sActionElemName = 'aid';
+											c.sStartOver = 'lnkStartOver';
+											c.sAdditionalText = ' (<a href="http://pages.ebay.com/help/sell/contextual/inframe/listing-two-categories.html" id="addfescatlink2nd" name="addfescatlink2nd" target="_blank">Fees apply<b class="acc-hdn"> - opens in a new window or tab</b></a>)';
+											c.sAdd2ndCatText = 'Add a second category and reach more buyers.';
+											c.bListedWith2ndCat = false;
+											c.bIsRYI = false;
+											c.bCanAdd2ndCat = true;
+											c.sCatTextElemName = 'pcat';
+											c.aRestoreList = new Array;
+											c.sCompletedListingsText = 'See sample listings<b class="acc-hdn"> - opens in a new window or tab</b>';
+											c.sCompletedListingsUrl = 'http://search-completed.ebay.com/_W0QQsacatZ';
+											c.sSelectedCatHTMLDelimiter = ' | ';
+											c.bCat1Editable = true;
+											c.bCat2Editable = true;
+											c.aLearnMores = [ 'addfescatlink' ];
+											c.iWidth = '450';
+											c.iHeight = '500';
+										})();
+									</script>
+									<div class="idtHrz">
+										<div class="fl">
+											<div class="verSpc"></div>
+											<div id="catlayerTitle" style="display: none;">
+												<b>Categories you've selected</b>
+											</div>
+										</div>
+										<br>
+									</div>
+								</div>
+							</div>
+							<div id="recCatFrame_sec"
+								style="visibility: hidden; position: absolute; z-index: 100;">
+								<br>
+							</div>
+							<div>
+								<div class="secAct">
+									<table summary="" border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+											<tr>
+												<td nowrap="nowrap"><button style="opacity: 1;"
+														id="aidZ1" name="aidZ1" type="submit" class="btnMain"
+														role="button" aria-disabled="false">
+														<span class="btn" id="aidZ1_btnFrm"><span
+															class="btn" id="aidZ1_btnLbl">Continue</span></span>
+													</button></td>
+												<td><br></td>
+												<td nowrap="nowrap"><a href="javascript:{}"
+													id="lnkStartOver">Start over<b class="acc-hdn"> to
+															deselect the category</b></a></td>
+												<td width="100%"><img
+													src="eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/s.gif"
+													alt=" " height="1" width="1"></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</form>
+						<div id="hlpBub"
+							style="display: none; visibility: hidden; width: 300px;"
+							class="hlpBub"></div>
+						<!--Begin eBay Footer-->
+						<div id="glbfooter" class="gh-w gh-flex">
+							<div>
+								<div id="rtm_html_1650"></div>
+								<div id="rtm_html_1651"></div>
+							</div>
+							<h2 class="gh-ar-hdn">Additional site navigation</h2>
+							<div id="gf-t-box">
+								<table class="gf-t">
+									<tbody>
+										<tr>
+											<td colspan="2"><br></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="footerBGPost">
+													<table>
+														<tbody>
+															<tr>
+																<td><a
+																	href="http://pages.ebay.com/ebay-money-back-guarantee/"
+																	_sp="m571.l4539" id="gf-bp"><span class="gh-ar-hdn">eBay
+																			Money Back Guarantee</span></a></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</td>
+										</tr>
+										<tr valign="top">
+											<td class="gf-legal">.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--ts:2014.11.28.08:13-->
+						<!--rq:-->
+						<!--rvr:59rc5-->
+						<!--@sgfp@ footerStyle=FULL @egfp@-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End eBay Footer-->
+	</div>
+	<form action="http://qu.ebay.com/survey?srvName=SYI%20(SYI)"
+		method="post" name="syiCommentsForm" target="syiCommentsSurvey">
+		<input id="syiCommentsContent" name="syiCommentsContent" tabindex="-1"
+			value="" type="hidden">
+	</form>
+	<div id="lyrGrayout_sec"
+		style="visibility: hidden; position: absolute; z-index: 1;"></div>
+	<div id="dialog" role="dialog"
+		style="visibility: hidden; position: absolute; z-index: 2;"></div>
+	<div id="lyrProgressIndicator_sec" class="dlgBdr">
+		<div class="idtHrz"
+			style="position: relative; text-align: center; top: 50%;">
+			<img alt="Loading" title="Loading"
+				src="eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/imgLoading.gif"
+				border="0">
+		</div>
+	</div>
+	<div id="hlpFrmHdr" class="hlpFrmHdr"
+		style="display: none; visibility: hidden;" aria-live="polite">
+		<table class="hlpFrmHdr" summary="" border="0" cellpadding="0"
+			cellspacing="0" width="100%">
+			<tbody>
+				<tr>
+					<td class="hlpFrmHdr" width="100%">Help<br> <br>
+					</td>
+					<td class="conBdr" align="center" nowrap="nowrap"><a
+						href="javascript:{}" id="hlpFrmHdrLnk"
+						onclick="ebay.run(this.id,'onclick');return false;"><img
+							alt="Close" title="Close"
+							src="eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/btnClose_16x16.gif"
+							border="0"></a><br> <br></td>
+					<td width="96%"><br> <br></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="liveHlpHdr" id="liveHlpHdr"
+		style="display: none; visibility: hidden;" aria-live="polite">
+		<script type="text/javascript" language="JavaScript">
+			liveHelp.drawTrigger();
+		</script>
+		<a
+			href="http://ocs.ebay.com/ws/eBayISAPI.dll?ContactUsNextGen&amp;format=1&amp;pid=506"
+			target="_help"
+			onclick="return liveHelp.popup(this.href,this.target,472,320,'no','no');"><img
+			src="eBay%20%3E%20Tell%20us%20what%20you%27re%20selling%20:%20Select%20a%20category_files/syi3_livehelp_selectcategory.gif"
+			alt="Click here for Live Help" align="absmiddle" border="0"></a>
+	</div>
+	<div class="hlpIframeWithLiveHlp" id="hlpFrm_div" aria-live="polite"
+		style="display: none; visibility: hidden;">
+		<iframe name="hlpFrm" id="hlpFrm" class="hlpFrm"
+			style="display: none; visibility: hidden;" allowtransparency="true"
+			title="Live help search" frameborder="0"></iframe>
+	</div>
+	<div id="overlay" style="visibility: hidden; position: absolute;"></div>
+	<script type="text/javascript" src="../../EBay/public/scripts/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxcore.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxbuttons.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxscrollbar.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxdata.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxlistbox.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxcombobox.js"></script>
+	<script type="text/javascript" src="../../EBay/public/jqwidgets/jqxdatatable.js"></script>
+	<script type="text/javascript" src="../../EBay/public/scripts/demos.js"></script>
+	<script type="text/javascript">
+$(document).ready(function () {
+// prepare the data
+var categorySource =
+{
+dataType: "json",
+dataFields: [
+{ name: 'CategoryName'},
+{ name: 'CategoryID'}
+],
+url: '/GetCategory'
+};
+
+var categoryAdapter = new $.jqx.dataAdapter(categorySource);
+
+$("#Category").jqxComboBox(
+{
+source: categoryAdapter,
+width: 300,
+height: 25,
+promptText: "Select category...",
+displayMember: 'CategoryName',
+valueMember: 'CategoryID'
+});
+
+var subCategorySource =
+{
+dataType: "json",
+dataFields: [
+{ name: 'SubCategoryId'},
+{ name: 'SubCategoryName'},
+{ name: 'SubCategoryDesc'},
+],
+url: '/GetSubCategory'
+};
+var subCategoryAdapter = new $.jqx.dataAdapter(subCategorySource);
+
+$("#subCategory").jqxComboBox(
+{
+
+width: 300,
+height: 25,
+disabled: true,
+promptText: "Select sub category...",
+displayMember: 'SubCategoryName',
+valueMember: 'SubCategoryId'
+});
+
+$("#subCategory").bind('select', function(event)
+{
+if (event.args)
+{
+$("#subCategory").jqxComboBox({ disabled: false, selectedIndex: -1});
+var value = event.args.item.value;
+categorySource.data = {CategoryID: value};
+subCategoryAdapter = new $.jqx.dataAdapter(subCategorySource);
+$("#subCategory").jqxComboBox({source: subCategoryAdapter});
+}
+});
+
+$("#subCategory").bind('select', function(event)
+{
+if (event.args)
+{
+var index = $("#subCategory").jqxComboBox('selectedIndex');
+if (index != -1)
+{
+var record = subCategoryAdapter.records[index];
+var detailsSource =
+{
+dataType: "json",
+dataFields: [
+{ name: 'CategoryName' },
+{ name: 'SubCategoryName' }
+
+],
+localData: record
+};
+var detailsAdapter = new $.jqx.dataAdapter(detailsSource);
+
+$("#orderInfo").jqxDataTable({
+source: detailsAdapter,
+width: 500,
+columns: [{ text: "CategoryName", dataField: "CategoryName", cellsFormat: 'd' }, { text: "SubCategoryName", dataField: "SubCategoryName" }]
+});
+}
+}
+});
+});
+
+</script>
+</body>
+</html>
+

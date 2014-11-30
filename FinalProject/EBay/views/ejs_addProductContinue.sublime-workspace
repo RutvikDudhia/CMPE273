@@ -1,0 +1,221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cat",
+				"category"
+			],
+			[
+				"Sub",
+				"SubCategoryName"
+			],
+			[
+				"Category",
+				"CategoryName"
+			],
+			[
+				"Cate",
+				"CategoryID"
+			],
+			[
+				"SubCate",
+				"SubCategoryId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 54.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rutvik/Documents/Bootstrap/Ebay/SelectCategory.html",
+		"/home/rutvik/Documents/Bootstrap/Jwidget/demos/jqxcombobox/cascadingcombobox.htm",
+		"/home/rutvik/Documents/Bootstrap/Ebay/test.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/Select Cateogory.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/eBay > Tell us what you're selling : Select a category.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/Register with eBay.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/Get started with eBay.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/Welcome to eBay  Sign in.html",
+		"/home/rutvik/Documents/Bootstrap/Ebay/Welcome to eBay: Sign in.html",
+		"/home/rutvik/Documents/Bootstrap/CategorySetup.jsp",
+		"/home/rutvik/Documents/Bootstrap/Page1.html",
+		"/home/rutvik/Documents/Bootstrap/SignIn.html",
+		"/home/rutvik/Documents/Bootstrap/HomeScreen.html",
+		"/home/rutvik/Documents/Bootstrap/Places.html",
+		"/home/rutvik/Documents/Bootstrap/SubCategories.html",
+		"/home/rutvik/Documents/Bootstrap/CategorySetup.html",
+		"/home/rutvik/Documents/Bootstrap/PlaceSetup",
+		"/home/rutvik/Documents/Bootstrap/SignUp.html",
+		"/home/rutvik/Documents/Cmpe 273/web.xml",
+		"/home/rutvik/Documents/Service.java",
+		"/home/rutvik/Documents/DatabaseConnection.java",
+		"/home/rutvik/Documents/ConnectionPool.java",
+		"/home/rutvik/Documents/Bootstrap/D3Trial.html",
+		"/home/rutvik/Documents/sf-city-lots-json-master/citylots.json",
+		"/home/rutvik/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/opt/eclipse/http:/localhost:8080/YelpClient/sampleServiceProxy/TestClient.jsp?endpoint=http",
+		"/opt/eclipse/http",
+		"/home/rutvik/Documents/Bootstrap/Profile.html",
+		"/home/rutvik/Documents/Bootstrap/TestSignIn.html",
+		"/home/rutvik/Documents/Bootstrap/Test.html",
+		"/home/rutvik/Documents/Bootstrap/index.html",
+		"/home/rutvik/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rutvik/Documents/Cmpe 273/SignUp.java",
+		"/home/rutvik/Documents/Cmpe 273/Service.java",
+		"/home/rutvik/Documents/Cmpe 273/DatabaseConnection.java",
+		"/home/rutvik/Documents/Bootstrap/<html>"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../../",
+			"<ul",
+			"Browse ",
+			"Browse Ca",
+			"Browse ",
+			"<li ",
+			"<ul",
+			"ul",
+			"li"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ejs_addProductContinue.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
