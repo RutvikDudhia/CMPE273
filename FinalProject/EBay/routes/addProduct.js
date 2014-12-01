@@ -33,14 +33,28 @@ exports.uploadProductImage=function (req,res)
 	console.log(buyButton);
 	console.log(binPrice);
 	console.log(ssnNumber);
+	
+	if(productTitle==null||imagePath==null||productCondition==null||productName==null||biddingStartPrice==null||ssnNumber==null)
+		{
+		
+			res.render('ejs_errorpage');
+		}
 
 	
 	console.log(req.files);
 	
+	var query = I
+	
+	
+	
 	fs.readFile(req.files.imageFile.path, function (err, data) {
 			  
 		  fs.writeFile("1.jpg", data, function (err) {
-		  console.log(err);
+		 if(err)
+			 {
+			  console.log(err);
+			  res.render(ejs_errorpage);
+			 }
 		  });
 		});
 	console.log("abc");
