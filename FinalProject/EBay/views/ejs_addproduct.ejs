@@ -96,7 +96,7 @@ form h2 {
 						<!-- End eBay Header -->
 						<!--[if IE]><link rel="stylesheet" href="http://include.ebaystatic.com/css/e901/us/tbx/darwin/syi/mainIEFixes_e9011us.css" type="text/css"/><![endif]-->
 						<form action="AddProductContinue" method="post"
-							name="selling">
+							name="selling" id="selling">
 							<div class="brdcmb" id="brdcmb">
 								<b>
 									<div class="level1">SELL YOUR ITEM</div>
@@ -157,14 +157,16 @@ form h2 {
 																<div>
 																	<span
 																		style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left;">&nbsp Categories:</span>
-																	<div style="margin-left: 5px; float: left;"
-																		id="Category"></div>
+																	<div style="margin-left: 5px; float: left;">
+																	<select id="categoryCombo" name="categoryCombo"></select>
+																	</div>
 																	<div style="clear: both;"></div>
 																	<div style="margin-top: 20px;">
 																		<span
 																			style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left;">&nbsp SubCategories:</span>
-																		<div style="margin-left: 5px; float: left;"
-																			id="subCategory"></div>
+																		<div style="margin-left: 5px; float: left;">
+																			<select id="subcategory" name="subcategory"></select>
+																		</div>
 																		<br>
 																		<div style="margin-top: 25px; font-size: 12px;"
 																			id="orderInfo"></div>
@@ -406,88 +408,56 @@ form h2 {
 	<script type="text/javascript" src="../../scripts/demos.js"></script>
 	<script type="text/javascript">
 $(document).ready(function () {
+ 
 
-var categorySource =
-{
-dataType: "json",
-dataFields: [
-{ name: 'categoryId'},
-{ name: 'name'}
-],
-url: 'http://localhost:3000/GetCategories'
-};
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "/GetCategories",
+                data: "{}",
+                dataType: "Json",
+                success: function (data) {
+                    $.each(data.d, function (value) {
+                        $("[id$='categoryCombo']").append($("<option></option>").val(value.categoryId).html(value.name));
+ 
+                        alert("hellow");
+                    });
+                }
+                                error: function ajaxError(response) {
+                                    alert(response.status + ' ' + response.statusText);
+                                }
+ 
 
-var categoryAdapter = new $.jqx.dataAdapter(categorySource);
 
-$("#Category").jqxComboBox(
-{
-source: categoryAdapter,
-width: 300,
-height: 25,
-promptText: "Select category...",
-displayMember: 'name',
-valueMember: 'CategoryId'
-});
+   });
 
-var subCategorySource =
-{
-dataType: "json",
-dataFields: [
-{ name: 'subcategoryId'},
-{ name: 'name'},
-{ name: 'descrption'},
-],
-url: 'http://localhost:3000/GetSubCategories?CategoryId='+$("#Category option:selected").val()
-};
-var subCategoryAdapter = new $.jqx.dataAdapter(subCategorySource);
+</script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+<script>
 
-$("#subCategory").jqxComboBox(
-{
+var validator = $("#selling").validate({
+    rules: {
+        title: "required",
+        itemCondition: "required",
+        itemQty:"required",
+        paypalEmail :"required",
+        binPrice :  {
+        			required :
+        				{
+						depends: function(element) {
+						return $("#binCheck:checked");
+						}
 
-width: 300,
-height: 25,
-disabled: true,
-promptText: "Select sub category...",
-displayMember: 'name',
-valueMember: 'subcategoryId'
-});
-
-$("#Category").bind('select', function(event)
-{
-if (event.args)
-{
-$("#subCategory").jqxComboBox({ disabled: false, selectedIndex: -1});
-var value = event.args.item.value;
-subCategorySource.data = {categoryId: value};
-subCategoryAdapter = new $.jqx.dataAdapter(subCategorySource);
-$("#subCategory").jqxComboBox({source: subCategoryAdapter});
-}
-});
-
-$("#subCategory").bind('select', function(event)
-{
-if (event.args)
-{
-var index = $("#subCategory").jqxComboBox('selectedIndex');
-if (index != -1)
-{
-var record = subCategoryAdapter.records[index];
-var detailsSource =
-{
-dataType: "json",
-dataFields: [
-{ name: 'CategoryName' },
-{ name: 'SubCategoryName' }
-
-],
-localData: record
-};
-var detailsAdapter = new $.jqx.dataAdapter(detailsSource);
-
-}
-}
-});
-});
+					}		
+          },
+     messages:
+     {
+        title: "Required",
+        itemQty: "Required"
+      }
+     
+    });
+   
 
 </script>
 </body>
