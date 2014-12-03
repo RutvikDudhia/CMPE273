@@ -3,7 +3,7 @@ var mysql = require('mysql');
 
 exports.getSubCategory =function (req,res)
 {
-	var categoryid = req.param('CategoryId');
+	var categoryid = req.param('categoryId');
 	var connection = mysql.createConnection('localhost://root:alkadudhia@localhost/ebay');
 	connection.connect();	
 	var queryString = 'Select * from subcategory where categoryid ='+categoryid+';';
